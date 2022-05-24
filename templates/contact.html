@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drowsiness Detection System</title>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<style type="text/css">
+
+		body{
+			color: #E5E5EA;
+			font-family:'San Francisco', Helvetica, Arial, san-serif;
+			background-color: rgba(232,234,237);
+			/* background-color: #000; */
+}
+
+		.container1{
+			align-items: center;		
+			display: flex;
+			padding: 70px;
+			flex-direction: column;
+			justify-content: center;
+			border: 4px solid rgba(32,33,36);
+			/* border: 4px solid #fff; */
+			border-radius: 20px;
+			margin: 20px 40px 20px;
+			background: linear-gradient(rgba(89, 86, 86, 0.5), rgba(22, 21, 21, 0.5)), url("../static/assets/banner.webp");
+			background-position: center bottom;
+		}
+
+		.heading1{
+      border:4px solid;
+      padding:10px;
+      border-radius:10px;
+      width:100%;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .heading2{
+      border:4px solid;
+      padding:10px;
+      border-radius:10px;
+      margin:10px;
+      width:100%;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+		.title{
+			font-size:3rem;
+		}
+
+		.r-div{
+			display:grid;
+			grid-template-columns: repeat(3,1fr);
+			justify-content: center;
+			align-content: center;
+			column-gap: 15px;
+			padding: 0px 40px;
+		}
+
+		.desc{
+			/* border:2px solid #fff; */
+      margin:10px;
+			border: 4px solid rgba(32,33,36);
+			padding:20px;
+			border-radius:20px;
+			display:flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+			letter-spacing: 1px;
+			color:rgba(32,33,36);
+			background-color: #fff;
+			-webkit-box-shadow: 3px 3px 35px -5px rgba(0,0,0,0.75);	
+			-moz-box-shadow: 3px 3px 35px -5px rgba(0,0,0,0.75);
+			box-shadow: 3px 3px 35px -5px rgba(0,0,0,0.75);
+		}
+
+		.button {
+    		padding: 50px;
+   			display: flex;
+   			justify-content: center;
+   			align-items: center;
+    		font-size: 1.5rem;
+			gap:1%;
+		}
+		a{
+			/* border:2px solid #fff; */
+			border: 4px solid rgba(32,33,36);
+			border-radius: 10px;
+			padding:10px;
+			color: #fff;
+			width: 200px;
+   			display: flex;
+   			align-items: center;
+    		justify-content: center;
+			background: linear-gradient(rgba(89, 86, 86, 0.5), rgba(22, 21, 21, 0.5)), url("../static/assets/banner.webp");
+			
+		}
+
+		.button2{
+			border: 4px solid rgba(32,33,36);
+			border-radius: 10px;
+			padding:10px;
+			font-size:24px;
+			color: #fff;
+			width: 200px;
+   			display: flex;
+   			align-items: center;
+    		justify-content: center;
+			background: linear-gradient(rgba(89, 86, 86, 0.5), rgba(22, 21, 21, 0.5)), url("../static/assets/banner.webp");
+			
+		}
+
+		img{
+			width:100%;
+			border-radius: 20px;
+		}
+
+    .box-content{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      padding:10px
+    }
+
+	.anurodhan_image{
+		padding:0px 0px 20px;
+	}
+
+	</style>	
+	
+</head>
+<body>
+	<div class="pimg1">
+        <div class="container1">
+  			<div class="title">Meet The Creators</div>
+		</div>
+  </div>
+					<div class="direction-r r-div">
+						<div class="desc">
+              <div class="descs">
+							<img src="../static/assets/aryaman_chettri.jpeg">
+              <div class="box-content">
+                <div class = "heading1">Aryaman Chettri</div>
+                <div class = "heading2">aryamanchettri@gmail.com</div>
+                </div>
+              </div>
+						</div>
+            <div class="desc">
+              <div class="descs">
+							<img src="../static/assets/nayan_sharma.jpeg">
+              <div class="box-content">
+                <div class = "heading1">Nayan Sharma</div>
+                <div class = "heading2">nayansharma@gmail.com</div>
+                </div>
+              </div>
+						</div>
+            <div class="desc">
+              <div class = "descs">
+							<img class = "anurodhan_image" src="../static/assets/neha_singh.jpeg">
+              <div class="box-content">
+                <div class = "heading1">Neha Singh</div>
+                <div class = "heading2">nehasingh@gmail.com</div>
+              </div>
+              </div>
+						</div>
+            <div class="desc">
+              <div class="descs">
+							<img src="../static/assets/anurodhan_pradhan.jpeg">
+              <div class="box-content">
+                <div class = "heading1">Anurodhan Pradhan</div>
+                <div class = "heading2">anurodhanpradhan@gmail.com</div>
+              </div>
+              </div>
+						</div>
+            <div class="des">
+              <div class="des">
+							<img src="">
+              <div class="box-content">
+                <div class = ""></div>
+                <div class = ""></div>
+              </div>
+              </div>
+						</div>
+            <div class="desc">
+              <div class = "descs">
+							<img src="../static/assets/pragya_subba.jpeg">
+              <div class="box-content">
+                <div class = "heading1">Pragya Subba</div>
+                <div class = "heading2">pragyasubba10@gmail.com</div>
+              </div>
+              </div>
+						</div>
+				</div>  
+
+				<div class = "button">
+					<form method="post" action="/start">
+						<input type="submit" class="button2" value="Start" name="Start"/>
+          </form>
+  				</div>	
+			</body>
+</html>
